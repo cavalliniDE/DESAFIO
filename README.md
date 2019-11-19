@@ -19,7 +19,7 @@ Chamo o contexto pyspark , no terminal ,  executo sc no jupyter notebook por exe
 
 ou de uma maneira mais eficiente , criou uma estrutura de projetos dentro do próprio diretório Spark . com a inicialização imediata do contexto. digitando pyspark no terminal.
 
-4 - Explique com suas palavras o que é 􏰂􏰄 􏰆RDD􏰇?
+4 - Explique com suas palavras o que é RDD?
 RDDs são a unidade fundamental do Spark , é uma coleção de objetos distribuídos e imutáveis. Caso os dados em memória são perdidos, eles podem ser recriados, o armazenado em memória é feito através do cluster.  Os dados podem vir de um arquivo ou serem criados por meio de um programa, ou através de outro RDD.
 O Spark trabalha em modo Lazy (Preguiçoso) , com ações e transformações.
 Ele não irá executar ate receber uma ação, como: count(), collect(), take() reduce(), por exemplo, que nesse caso seria um comando de ação.
