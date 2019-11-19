@@ -8,7 +8,7 @@ A principal diferença entre eles está na abordagem do processamento: o Spark p
 Como resultado, a velocidade de processamento difere significativamente. 
 O Apache Spark com armazenamento in-memory apresenta até 100 vezes mais melhoria na performance. Com o Spark Streaming o processamento chega em real time ,  onde posso utilizar os mesmos códigos tanto no Apache Spark quanto no Componente Spark Streaming , dependendo do meu caso de uso…. 
 
-3 - Qual é a função do S􏰀par􏰁kCont􏰂ext􏰃􏰂 ? 
+3 - Qual é a função do SparkContext? 
 Toda aplicação Spark requer um Spark Context  é o ponto de entrada da Spark API. 
 O Spark Shell instancia um contexto e o habilita com o nome sc. 
 Como um driver.
